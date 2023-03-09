@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-fzwb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:ohllU-e2e-tests-fzwb
+      - image: quay.io/redhat-appstudio/user-workload@sha256:bef37efb633b63d3e4bf872068b852de1637124fc60452cea54b2411483b2b73
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
